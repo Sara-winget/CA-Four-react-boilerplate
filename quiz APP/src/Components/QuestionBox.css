@@ -1,0 +1,59 @@
+*{
+margin:0;
+border: 0;
+box-sizing: border-box;
+} 
+.QuesBox{
+    display:flex;
+    height: 1000px;
+    width: 1000px;
+    flex-direction: column;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    flex-grow: 2;
+}
+
+.kalvium{
+    margin: 30px;
+}
+
+.mode{
+    margin: 30px;
+}
+.quiz{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height:800px;
+    padding:100px;
+    margin: 100px;
+    background-color: rgb(209, 205, 199);
+    align-items: center;
+}
+.items{
+    margin:30px;
+    align-self: center;
+}
+.options{
+    display:flex;
+    flex-direction: column;
+    height:200px;
+    width: 400px;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+.footer{
+    display:flex;
+     margin:50px;
+     width:300px;
+     justify-content: space-between;
+}
+
+.highlight{
+    background-color: lightcoral;
+    border-radius: 20px;
+}
